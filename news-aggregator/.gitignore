@@ -1,0 +1,37 @@
+# Dependencies
+# This folder can be massive and all its contents can be reinstalled
+# by running `npm install` based on the package.json file.
+/node_modules
+
+# Build output
+# This folder contains the optimized, production-ready code that is
+# generated from your source code. It should not be version-controlled.
+/build
+
+# Environment variables
+# This is CRITICAL for security. These files contain secret API keys,
+# database passwords, and other credentials. Never commit these.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+# Log files are specific to a single session and machine.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Test reports
+# This folder is generated when you run tests with coverage analysis.
+/coverage
+
+# Editor and OS files
+# These are user-specific configuration files for code editors and
+# junk files created by operating systems.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
